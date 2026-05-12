@@ -15,9 +15,13 @@ This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and
 
 > ### Before we jump in... 
 > 
-> Here are two quick things to know to help you follow this guide
+> ...do not fear the __[Command-Line Interface](https://en.wikipedia.org/wiki/Command-line_interface)__!!! 
+>
+> Part of programming with python is becoming at least a little bit familiar with your computer's command-line interface, commonly called a "shell". A shell is simply a text-based way to interact with your computer, as apposed to the more familiar Graphical User Interface (GUI) that you use every day. 
+>
+> You can open a shell instance on Windows with `PowerShell` or `Command Prompt`, or on Mac with `terminal` (which will then run something like `bash` or `zsh`). **The choice of a shell does not matter here**, and you will be able to work through these tutorials no matter which shell is available on your computer.
 > 
-> #### 1. Computer Shell Command Blocks
+> #### Computer Shell Command Blocks
 > In this guide, whenever you see text located within a code block
 >
 > ```shell
@@ -25,11 +29,9 @@ This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and
 > ...something like this
 > ```
 >
-> you can copy and paste these commands directly into your command prompt, Bash, PowerShell, or terminal window. Then press the `enter` key to run the command. __At some point you will get an error__, but that's what Google is for!
+> you can copy and paste these commands directly into your computer prompt, which may be a Bash, PowerShell, or some other variety of shell. Then press the `enter` key to run the command. __At some point you will get an error__, but that's what Google is for!
 >
-> #### 2. Navigating in a Computer Shell Window
->
-> The blinking computer shell prompt may seem mysterious and intimidating, but it doesn't have to be! 
+> #### Navigating in a Computer Shell Window
 >
 > When you open a computer shell (e.g., PowerShell, Bash, etc.) you are essentially dropped into some location on your computer system. In other words, you are within some folder of your file explorer.  We will call this your Current Working Directory or `CWD`. You can learn how to navigate through your computer file system using just the three commands below:
 > 
@@ -46,7 +48,7 @@ This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and
 
 If you're an entry-level user, the simplest way to follow along with the notebooks in this repository is to download the notebooks one-at-a-time as you need them, using the download icon on the GitHub webpage for each notebook. If this sounds like you, skip below to step 2!  
 
-However if you would like, you can instead use `git` to `clone` the entire repository onto your local computer (which, of course, requires that you have `git` installed on your system). In your shell window, navigate to the location where you want to clone the repository
+However if you would like, you can instead use `git` to `clone` the entire repository onto your local computer (which, of course, requires that you have `git` installed on your system). In your shell window (see the note above!), navigate to the location where you want to clone the repository
 
 ```shell
 # Navigate to the desired location
