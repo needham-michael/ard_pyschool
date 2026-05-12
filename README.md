@@ -13,7 +13,10 @@ This informal course is meant to provide a *gentile* introduction to computer pr
 This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and environment management. If you are new to using a computer terminal, uv, Python environments, Jupyter notebooks—don’t worry! This guide will walk you through everything you need to get set up and verify that your system is ready.
 
 
-> Before we jump into the guide, here are two quick things to know...
+> ### Before we jump in... 
+> 
+> Here are two quick things to know to help you follow this guide
+> 
 > #### 1. Computer Shell Command Blocks
 > In this guide, whenever you see text located within a code block
 >
