@@ -19,7 +19,7 @@ This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and
 >
 > Part of programming with python is becoming at least a little bit familiar with your computer's command-line interface, commonly called a "shell". A shell is simply a text-based way to interact with your computer, as apposed to the more familiar Graphical User Interface (GUI) that you use every day. 
 >
-> You can open a shell instance on Windows with `PowerShell` or `Command Prompt`, or on Mac with `terminal` (which will then run something like `bash` or `zsh`). **The choice of a shell does not matter here**, and you will be able to work through these tutorials no matter which shell is available on your computer.
+> You can open a shell instance on Windows with `PowerShell` or `Command Prompt`, or on Mac with `terminal` (which will then run something like `bash` or `zsh`). **The choice of a shell is entirely personal preference**, and you will be able to work through these tutorials no matter which shell is available on your computer. But whichever you use, **pay attention to the shell you are using!** This will allow you to quickly google what you want to do. For example type `windows command prompt list everything in current folder` into google and see what pops up.
 > 
 > #### Computer Shell Command Blocks
 > In this guide, whenever you see text located within a code block
@@ -37,9 +37,9 @@ This repository uses __[uv](https://docs.astral.sh/uv/)__ for Python project and
 > 
 > | Command | Short For | Purpose |
 > | ------- | --------- | ------- |
-> | `cd` | Change Directory | Move from the `CWD` to a new loction |
-> | `pwd` | Print Working Directory | Print out the `CWD` | 
-> | `ls` | List | List all files and folders within the `CWD` |
+> | `cd new_path` | Change Directory | Move from the `CWD` to a `new_path` |
+> | `pwd` (or `cd` with no argument for windows command prompt)| Print Working Directory | Print out the `CWD` | 
+> | `ls`  (or `dir` for windows command prompt) | List | List all files and folders within the `CWD` |
 >
 > For a more in-depth introduction, see this __[Blog Post](https://www.redhat.com/en/blog/navigating-filesystem-linux-terminal)__. It is written for a linux system, but the concepts (and the specific commands!) are directly transferrable to Windows.
 
