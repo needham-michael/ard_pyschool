@@ -9,3 +9,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Image and Data files
+*.csv
+*.txt
+*.nc
+*.hdf
+*.h5
+*.png
+*.jpg
+*.jpeg
+*.svg
