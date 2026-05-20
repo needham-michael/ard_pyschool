@@ -106,7 +106,14 @@ This will:
 - Install all packages listed in the `pyproject.toml` file with the exact versions specified in the `uv.lock` file.
 - Ensure the correct version of Python is installed.
 
-**If you run into an error**, try cleaning the cache with `uv cache clean` and then rerunning the `uv sync` command.
+> **If you run into an error**, try cleaning the cache with `uv cache clean` and then rerunning the `uv sync` command.
+
+To make sure that the environment has been installed correctly, enter the following command, which will run an included python verification script.
+
+```shell
+uv run .\verify_env.py
+```
+
 
 ### 4. Launch Jupyter Lab to View Notebooks
 
